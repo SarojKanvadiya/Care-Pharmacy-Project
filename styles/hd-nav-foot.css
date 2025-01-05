@@ -319,7 +319,7 @@ form #submitBtn {
 /* -------------------------- RESPONSIVE ----------------------- */
 
 
-@media (min-width: 620px) and (max-width: 900px) {
+@media (min-width: 620px) and (max-width: 800px) {
 
     .header,
     nav,
@@ -330,7 +330,6 @@ form #submitBtn {
     #resNav {
         height: 4rem;
         padding: 10px;
-        /* border: 2px solid green; */
         display: flex;
         justify-content: space-between;
         align-items: center;
