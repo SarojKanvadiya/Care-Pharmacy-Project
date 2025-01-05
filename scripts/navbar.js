@@ -24,10 +24,7 @@ const searchBar = `<a id="logo" href="index.html">Logo</a>
             <input type="search" class="search" placeholder="Search Medicine By Name here">
             <i class="fa-solid fa-magnifying-glass"></i>
         </form>
-        <div class="nav-icon">
-            <span style="font-size: 20px;">&#9776;</span>
-        </div>
-        <div class="user__account_details">
+            <div class="user__account_details">
             <span id="user_login_id"></span>
             <a href="profile.html" id = "profile" style = "color:black;"><i class="fa-solid fa-user"></i>
 </a>
