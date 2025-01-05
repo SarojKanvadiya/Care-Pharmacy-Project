@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- <link rel="stylesheet" href="./styles/forms.css"> -->
+  <link rel="stylesheet" href="./styles/hd-nav-foot.css">
+  <!-- <link rel="stylesheet" href="./styles/contact.css"> -->
+  <link rel="stylesheet" href="./styles/offers.css">
+  <!-- FONTAWESOME CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Contact Us Page</title>
+</head>
+
+<body>
+  <!-- ----------------------------- HEADER -------------------------- -->
+  <header id="header" class="header"></header>
+
+  <!------------------------------- SEARCH, CART, PROFILE ---------------------------->
+  <div id="search" class="search__logo__help-support"></div>
+
+  <!------------------------------- NAVIGATION ---------------------------->
+  <nav class="nav" id="nav"></nav>
+
+  <!-- respon nav -->
+  <div id="resNav"></div>
+  <div class="resnavbar" style="display: none;" id="resnavbar"></div>
+
+  <!------------------------------- MAIN ---------------------------->
+
+  <main>
+    <div class="cart_container">
+      <section>
+        <div id="offer_card-container" class="offer_card-container">
+        </div>
+
+        <form id="form" style="display: none;">
+          <h3>Add Address</h3>
+          <!-- <label for="">Plot No. / House No. </label> -->
+          <input type="text" placeholder="Enter Full Name" id="name">
+          <input type="text" placeholder="Plot No. / House No." id="houseNo">
+          <input type="text" placeholder="Street / Colony / Buliding Name" id="buildingName">
+          <input type="text" placeholder="City" id="city">
+          <input type="text" placeholder="State" id="state">
+          <input type="number" placeholder="Pincode" id="pincode">
+          <input type="number" placeholder="Contact Number" id="contact">
+          <input type="submit" id="addAdresssBtn" value="Add Address">
+        </form>
+      </section>
+
+      <aside id="cartAside">
+          <div class="apply-coupon">
+            <form action="" class="form">
+              <select name="" id="coupon">
+                <option value="">Apply Coupon</option>
+                <option value="10%">10% off</option>
+                <option value="20%">20% off</option>
+                <option value="30%">30% off</option>
+              </select>
+              <input type="submit" id="submit" value="Apply">
+            </form>
+          </div>
+         
+          <div id="cart-amount">
+            <h4 style="text-transform: uppercase; padding: 10px;">Price Details</h4>
+            <hr>
+            <div id="col">
+              <div id="row-1" class="row">
+                <p>Total MRP</p>
+                <p>&#8377 1399</p>
+              </div>
+              <div id="row-2" class="row">
+                <p>Discount on MRP</p>
+                <p>- &#8377 868</p>
+              </div>
+              <div id="row-3" class="row">
+                <p>Shipping Fee</p>
+                <p>&#8377 FREE</p>
+              </div>
+            </div>
+            <hr>
+            <div id="total-amt-section" class="row">
+              <span>Total Amount</span>
+              <p>&#8377 <span></span></p>
+            </div>
+          </div>
+         
+          <div class="placeOrderBtn">
+            <button id="placeOrderBtn">Place Order</button>
+          </div>
+      </aside>
+
+    </div>
+
+  </main>
+  <!------------------------------- FOOTER ---------------------------->
+  <footer id="footer" class="footer"> </footer>
+</body>
+<script src="./scripts/navbar.js"></script>
+<script src="./scripts/footer.js"></script>
+<script src="./scripts/signup.js" type="module"></script>
+<script src="./scripts/profile.js"></script>
+<script src="./scripts/cart.js"></script>
+<script>
+  let navIcon = document.getElementById("nav-icon");
+let Nav = document.getElementById("resnavbar")
+navIcon.addEventListener("click", function() {
+
+Nav.style.display = "block";
+})
+document.getElementById("closenav").addEventListener("click", function(){
+Nav.style.display = "none";
+})
+</script>
+</html>
