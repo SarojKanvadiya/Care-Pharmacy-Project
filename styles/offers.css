@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.offer-container, .cart_container{
+    width: 90%;
+    /* border: 2px solid red; */
+   display: grid;
+   grid-template-columns: 3fr 1fr;
+   margin: auto;
+   gap: 20px;
+   padding: 20px;
+}
+
+
+aside {
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    height: fit-content;
+}
+
+aside a{
+    text-decoration: none;
+    color: black;
+}
+
+.offer-card{
+    padding: 10px;
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 5px 0px, rgba(0, 0, 0, 0.1) 0px 0px 1px 0px;
+    display: flex;
+    gap: 20px;
+}
+
+.offer_card-container {
+    padding: 10px;
+}
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.expireDate{
+    line-height: 1.5;
+}
+.expireDate span {
+    color: gray;
+} 
+
+.image img {
+    width: 100px;
+}
+.offers p{
+  padding: 10px 0;
+}
+
+.offer-Details a {
+    text-decoration: none;
+    color: rgb(207, 151, 47);
+}
+
+.offer-Details a:hover {
+    color: green;
+}
+
+#remove, #quantity {
+    /* background-color: green; */
+    padding: 3px 10px;
+}
+
+.apply-coupon , #cart-amount{
+    /* border: 2px solid red; */
+    text-align: center;
+    padding: 10px 0;
+    /* margin: auto; */
+}
+
+
+
+#coupon, #submit {
+   padding: 2px 20px;
+   border: 1px solid black;
+   border-radius: 2px;
+}
+
+#submit {
+    background-color: rgb(206, 142, 22);
+    color: white;
+    font-weight: 600;
+    border: none;
+    margin-inline: 10px;
+}
+
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    padding: 10px;
+}
+
+#total-amt-section {
+    font-weight: 600;
+}
+
+.placeOrderBtndiv {
+    border: 2px solid red;
+}
+
+#placeOrderBtn, #addAdresssBtn {
+    background-color: rgb(236, 164, 29);
+    border: none;
+    padding: 8px;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 3px;
+}
+
+#placeOrderBtn {
+    width: 100%;
+}
+#placeOrderBtn:hover, #addAdresssBtn:hover {
+    color: rgb(236, 164, 29);
+    border: 2px solid rgb(236, 164, 29);
+   background-color: white;
+}
+
+#form {
+    /* border: 2px solid red; */
+    padding: 20px 0;
+    border-radius: 5px;
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+#form input {
+    /* position: relative; */
+    width: 60%;
+   margin-bottom: 10px;
+    padding: 5px 10px;
+}
+
+#form h3 {
+    padding: 10px;
+    font-size: 1.5rem;
+}
+
+/* -------------------------- RESPONSIVE ----------------------- */
+
+
+@media (min-width: 620px) and (max-width: 900px){
+   #offeradide{
+    display: none;
+ }
+ .offer-container,.cart_container {
+    display: block;
+ }
+ #form{
+    width: 70%;
+ }
+}
+
+@media (min-width: 320px) and (max-width: 620px) {
+    #offeradide {
+        display: none;
+     }
+     .offer-container,.cart_container {
+        display: block;
+     }
+     .offer-card{
+        flex-direction: column;
+     }
+     #form{
+        width: 90%;
+     }
+}

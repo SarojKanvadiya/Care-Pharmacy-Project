@@ -1,0 +1,33 @@
+#payment-container {
+    margin: 20px auto; 
+    width: 50%;
+    /* border: 2px solid red; */
+    padding: 20px;
+}
+
+p {
+    padding: 10px;
+}
+
+select {
+    padding: 5px 20px;
+}
+
+button {
+    padding: 5px 10px;
+}
+
+/* -------------------------- RESPONSIVE ----------------------- */
+
+
+@media (min-width: 620px) and (max-width: 900px){
+    button {
+        margin: 10px;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 620px) {
+    button {
+       margin: 10px;
+    }
+}

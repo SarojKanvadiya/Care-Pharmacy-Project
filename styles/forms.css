@@ -1,0 +1,100 @@
+main {
+    height: fit-content;
+    margin: 50px auto;
+}
+.form {
+    /* border: 2px solid red; */
+    padding: 20px 0;
+    border-radius: 5px;
+    width: 50%;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+
+.form label {
+    width: 65%;
+    padding-bottom: 8px;
+   
+}
+
+.form h3 {
+    margin: 20px;
+    font-size: 3rem;
+}
+.form input {
+    /* position: relative; */
+    width: 60%;
+   margin-bottom: 10px;
+    padding: 5px 10px;
+}
+
+#submit {
+    width: fit-content;
+    padding-inline: 15px ;
+    font-size: 15px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border: 2px solid green;
+    border-radius: 5px;
+}
+#submit:hover{
+    background-color: white;
+    border: 2px solid green;
+    color: green;
+}
+
+.inputBox {
+    display: flex;
+    gap:10px;
+    width: 60%;
+    /* border: 2px solid red; */
+    margin-bottom: 10px;
+}
+
+.inputBox label {
+    /* border: 2px solid red; */
+    width: 30%;
+}
+
+#selectlabel {
+    /* border: 2px solid red; */
+    width: 40%;
+}
+select {
+    width: 100%;
+    padding: 7px;
+}
+
+#dob {
+    width: 100%; 
+}
+
+/* #header {
+    display: none;
+} */
+
+/* -------------------------- RESPONSIVE ----------------------- */
+
+
+@media (min-width: 620px) and (max-width: 900px){
+    .form{
+        width: 50%;
+    }
+    .form h3{
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 620px) {
+    .form{
+        width: 90%;
+    }
+    .form h3{
+        font-size: 1.5rem;
+    }
+}

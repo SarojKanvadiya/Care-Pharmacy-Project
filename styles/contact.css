@@ -1,0 +1,70 @@
+.content {
+    width: 90%;
+    margin: auto;
+    /* border: 2px solid red; */
+    display: grid;
+    grid-template-columns: 5fr 2.5fr;
+}
+
+section {
+    margin: 10px;
+    /* border: 2px solid rgb(0, 142, 104); */
+}
+
+.form {
+    width: 80%;
+}
+
+.form h3 {
+    font-size: 2rem;
+}
+textarea {
+    width: 60%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+aside {
+    margin: 10px;
+    /* border: 2px solid rgb(0, 30, 255); */
+}
+
+.contact-information-container {
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 5px;
+}
+
+.contact-information-container h3 {
+    text-align: center;
+    margin: 10px;
+}
+
+.contact-information-container span {
+    font-weight: 600;
+}
+
+.details-container {
+ margin: auto;
+}
+
+.text {
+    margin: 10px;
+}
+
+p>a{
+    color: black;
+}
+
+/* -------------------------- RESPONSIVE ----------------------- */
+
+
+@media (min-width: 620px) and (max-width: 900px){
+
+}
+
+@media (min-width: 320px) and (max-width: 620px) {
+
+}
