@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
         integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="./styles/paymentPage.css">
+    <link rel="stylesheet" href="./styles/paymentPage.css">
     <title>Document</title>
 </head>
 
@@ -23,15 +23,15 @@
     <nav class="nav" id="nav"></nav>
 
     <!-- respon nav -->
-  <div id="resNav"></div>
-  <div class="resnavbar" style="display: none;" id="resnavbar"></div>
+    <div id="resNav"></div>
+    <div class="resnavbar" style="display: none;" id="resnavbar"></div>
     <!------------------------------- MAIN ---------------------------->
     <main>
         <div id="payment-container">
 
-            <div id="address">            
+            <div id="address">
             </div>
-            
+
             <select name="" id="paymentmode">
                 <option value="">Select Payment Mode</option>
                 <option value="gpay">Google Pay</option>
@@ -53,13 +53,13 @@
 <script src="./scripts/profile.js"></script>
 <script>
     let navIcon = document.getElementById("nav-icon");
-let Nav = document.getElementById("resnavbar")
-navIcon.addEventListener("click", function() {
+    let Nav = document.getElementById("resnavbar")
+    navIcon.addEventListener("click", function () {
 
-  Nav.style.display = "block";
-})
-document.getElementById("closenav").addEventListener("click", function(){
-Nav.style.display = "none";
-})
+        Nav.style.display = "block";
+    })
+    document.getElementById("closenav").addEventListener("click", function () {
+        Nav.style.display = "none";
+    })
 </script>
 </html>

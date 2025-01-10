@@ -38,47 +38,47 @@ const footer =`<div class="newsletter">
             <div class="col-4 col">
                 <h3>Connect</h3>
                 <p>Social Links</p>
-                <div class="social-logo">
-                    <a href="facebook.com"><img src="./assets/Social Media/facebook.png" alt="facebook"></a>
-                    <a href="instagram.com"><img src="./assets/Social Media/instagram.png" alt="instagram"></a>
-                    <a href="linkedin.com"><img src="./assets/Social Media/linkedin.png" alt="linkedin"></a>
-                    <a href="twitter.com"><img src="./assets/Social Media/twitter.png" alt="twitter"></a>
-                    <a href="https://www.youtube.com/"><img src="./assets/Social Media/youtube.png" alt="youtube"></a>
-                </div>
+               <div class="social-logo">
+                       <a href="facebook.com"><img src="./assest/Social Media/facebook.png" alt="facebook"></a>
+                       <a href="instagram.com"><img src="./assest/Social Media/instagram.png" alt="instagram"></a>
+                       <a href="linkedin.com"><img src="./assest/Social Media/linkedin.png" alt="linkedin"></a>
+                       <a href="twitter.com"><img src="./assest/Social Media/twitter.png" alt="twitter"></a>
+                       <a href="https://www.youtube.com/"><img src="./assest/Social Media/youtube.png" alt="youtube"></a>
+               </div>
                 <p>Want daily dose of health?</p>
-                <a id="signupBtn" href="Login and Sign up.html">Sign Up</a>
+                <a id="signupBtn" href="Sign up.html">Sign Up</a>
             </div>
         </div>
         <hr>
         <div class="secure-reliable-affordable">
             <div class="col">
                 <div class="image">
-                    <img src="./assets/RS/shield.png" alt="Reliable">
+                    <img src="./assest/RS/shield.png" alt="Reliable">
                 </div>
                 <div class="contentafo">
                     <h1>Reliable</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum sit odit quam quibusdam quo
-                        temporibus deleniti. Hic saepe id quod?</p>
+                temporibus deleniti. Hic saepe id quod?</p>
                 </div>
             </div>
             <div class="col">
                 <div class="image">
-                    <img src="./assets/RS/padlock.png" alt="Secure">
+                    <img src="./assest/RS/padlock.png" alt="Secure">
                 </div>
                 <div class="contentafo">
                     <h1>Secure</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum sit odit quam quibusdam quo
-                        temporibus deleniti. Hic saepe id quod?</p>
+                temporibus deleniti. Hic saepe id quod?</p>
                 </div>
             </div>
             <div class="col">
                 <div class="image">
-                    <img src="./assets/RS/wallet.png" alt="Affordable">
+                    <img src="./assest/RS/wallet.png" alt="Affordable">
                 </div>
                 <div class="contentafo">
                     <h1>Affordable</h1>
                     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum sit odit quam quibusdam quo
-                        temporibus deleniti. Hic saepe id quod?</p>
+                temporibus deleniti. Hic saepe id quod?</p>
                 </div>
             </div>
         </div>
@@ -95,12 +95,12 @@ const footer =`<div class="newsletter">
                     dispensed in compliance with the Drugs and Cosmetics Act, 1940 and Drugs and Cosmetics Rules, 1945.
                     We do not process requests for Schedule X and habit forming drugs.</p>
             </div>
-            <div class="payments-mode-footer">
-                <img src="./assets/payments/Google Pay.png" alt="Google Pay">
-                <img src="./assets/payments/Paytm .png" alt="Paytm">
-                <img src="./assets/payments/PhonePe.png" alt="PhonePe">
-                <img src="./assets/payments/visa-logo.png" alt="Visa">
-                <img src="./assets/payments/mastercard.png" alt="Mastercard">
+           <div class="payments-mode-footer">
+                <img src="./assest/payments/Google Pay.png" alt="Google Pay">
+                <img src="./assest/payments/Paytm .png" alt="Paytm">
+                <img src="./assest/payments/PhonePe.png" alt="PhonePe">
+                <img src="./assest/payments/visa-logo.png" alt="Visa">
+                <img src="./assest/payments/mastercard.png" alt="Mastercard">
             </div>
         </div>`;
 

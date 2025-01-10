@@ -25,8 +25,8 @@
     <nav class="nav" id="nav"></nav>
 
     <!-- respon nav -->
-  <div id="resNav"></div>
-  <div class="resnavbar" style="display: none;" id="resnavbar"></div>
+    <div id="resNav"></div>
+    <div class="resnavbar" style="display: none;" id="resnavbar"></div>
 
     <!------------------------------- MAIN ---------------------------->
 
@@ -73,13 +73,14 @@
 <script src="./scripts/profile.js"></script>
 <script>
     let navIcon = document.getElementById("nav-icon");
-let Nav = document.getElementById("resnavbar")
-navIcon.addEventListener("click", function() {
+    let Nav = document.getElementById("resnavbar")
+    navIcon.addEventListener("click", function () {
 
-  Nav.style.display = "block";
-})
-document.getElementById("closenav").addEventListener("click", function(){
-Nav.style.display = "none";
-})
+        Nav.style.display = "block";
+    })
+    document.getElementById("closenav").addEventListener("click", function () {
+        Nav.style.display = "none";
+    })
 </script>
+
 </html>

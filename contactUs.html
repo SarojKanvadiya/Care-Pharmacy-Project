@@ -15,20 +15,20 @@
 </head>
 
 <body>
- <!-- ----------------------------- HEADER -------------------------- -->
- <header id="header" class="header"></header>
+    <!-- ----------------------------- HEADER -------------------------- -->
+    <header id="header" class="header"></header>
 
- <!------------------------------- SEARCH, CART, PROFILE ---------------------------->
- <div id="search" class="search__logo__help-support"></div>
+    <!------------------------------- SEARCH, CART, PROFILE ---------------------------->
+    <div id="search" class="search__logo__help-support"></div>
 
- <!------------------------------- NAVIGATION ---------------------------->
- <nav class="nav" id="nav"></nav>
+    <!------------------------------- NAVIGATION ---------------------------->
+    <nav class="nav" id="nav"></nav>
 
- <!-- respon nav -->
-  <div id="resNav" style="display: none;"></div>
-  <div class="resnavbar" style="display: none;" id="resnavbar"></div>
+    <!-- respon nav -->
+    <div id="resNav" style="display: none;"></div>
+    <div class="resnavbar" style="display: none;" id="resnavbar"></div>
 
- <!------------------------------- MAIN ---------------------------->
+    <!------------------------------- MAIN ---------------------------->
 
     <main>
         <div class="content">
@@ -42,38 +42,42 @@
                     <label for="phoneNumber">Phone Number:</label>
                     <input type="number" placeholder="Enter your number" id="phoneNumber">
                     <label for="meassage">Message:</label>
-<textarea name="" id="meassage">Write Your Message here..</textarea>
+                    <textarea name="" id="meassage">Write Your Message here..</textarea>
                     <input type="submit" id="submit" value="Contact Us">
                 </form>
             </section>
             <aside>
                 <div class="contact-information-container">
-                   <h3> Corporate Details</h3>
-                   <div class="details-container">
-                    <div class="text"><p><span>Mail us at :</span><a href="mailto:example@gmail.com">example@gmail.com</a></p></div>
-                   <div class="text"><p><span>CIN :</span> U24290DL2016PTC302634</p></div>
-                   <div class="text"><span>Our location:</span></div>
-                   <div class="text">
-                    <p><span>Registered Address:</span></p>
-                   <p>2nd Floor, Plot No. B-225, Okhla Industrial Area,
-                    Phase-I, South Delhi, New Delhi- 110020</p>
-                   </div>
-                    <div class="text">
-                        <p><span>Postal Address:</span></p>
-                   <p>2nd Floor, Plot No. B-225, Okhla Industrial Area,
-                    Phase-I, South Delhi, New Delhi- 110020</p>
-                    </div>
-                    <div class="text">
-                        <p><span>Corporate Address:</span></p>
-                   <p>2nd Floor, Plot No. B-225, Okhla Industrial Area,
-                    Phase-I, South Delhi, New Delhi- 110020</p>
-                    </div>
+                    <h3> Corporate Details</h3>
+                    <div class="details-container">
+                        <div class="text">
+                            <p><span>Mail us at :</span><a href="mailto:example@gmail.com">example@gmail.com</a></p>
+                        </div>
+                        <div class="text">
+                            <p><span>CIN :</span> U24290DL2016PTC302634</p>
+                        </div>
+                        <div class="text"><span>Our location:</span></div>
+                        <div class="text">
+                            <p><span>Registered Address:</span></p>
+                            <p>2nd Floor, Plot No. B-225, Okhla Industrial Area,
+                                Phase-I, South Delhi, New Delhi- 110020</p>
+                        </div>
+                        <div class="text">
+                            <p><span>Postal Address:</span></p>
+                            <p>2nd Floor, Plot No. B-225, Okhla Industrial Area,
+                                Phase-I, South Delhi, New Delhi- 110020</p>
+                        </div>
+                        <div class="text">
+                            <p><span>Corporate Address:</span></p>
+                            <p>2nd Floor, Plot No. B-225, Okhla Industrial Area,
+                                Phase-I, South Delhi, New Delhi- 110020</p>
+                        </div>
 
-                   </div>
+                    </div>
                 </div>
             </aside>
         </div>
-   
+
     </main>
     <!------------------------------- FOOTER ---------------------------->
     <footer id="footer" class="footer"> </footer>
@@ -84,13 +88,13 @@
 <script src="./scripts/profile.js"></script>
 <script>
     let navIcon = document.getElementById("nav-icon");
-let Nav = document.getElementById("resnavbar")
-navIcon.addEventListener("click", function() {
+    let Nav = document.getElementById("resnavbar")
+    navIcon.addEventListener("click", function () {
 
-  Nav.style.display = "block";
-})
-document.getElementById("closenav").addEventListener("click", function(){
-Nav.style.display = "none";
-})
+        Nav.style.display = "block";
+    })
+    document.getElementById("closenav").addEventListener("click", function () {
+        Nav.style.display = "none";
+    })
 </script>
 </html>

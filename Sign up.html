@@ -14,24 +14,24 @@
 </head>
 
 <body>
- <!-- ----------------------------- HEADER -------------------------- -->
- <header id="header" class="header"></header>
+    <!-- ----------------------------- HEADER -------------------------- -->
+    <header id="header" class="header"></header>
 
- <!------------------------------- SEARCH, CART, PROFILE ---------------------------->
- <div id="search" class="search__logo__help-support"></div>
+    <!------------------------------- SEARCH, CART, PROFILE ---------------------------->
+    <div id="search" class="search__logo__help-support"></div>
 
- <!------------------------------- NAVIGATION ---------------------------->
- <nav class="nav" id="nav"></nav>
+    <!------------------------------- NAVIGATION ---------------------------->
+    <nav class="nav" id="nav"></nav>
 
 
- <!-- respon nav -->
- <div id="resNav"></div>
- <div class="resnavbar" style="display: none;" id="resnavbar"></div>
- <!------------------------------- MAIN ---------------------------->
+    <!-- respon nav -->
+    <div id="resNav"></div>
+    <div class="resnavbar" style="display: none;" id="resnavbar"></div>
+    <!------------------------------- MAIN ---------------------------->
 
     <main>
-            
-    <!-- SIGN UP FORM -->
+
+        <!-- SIGN UP FORM -->
         <form id="SignUp" class="form">
             <h3>Sign UP</h3>
             <label for="username">Full Name:</label>
@@ -67,13 +67,13 @@
 <script src="./scripts/signup.js" type="module"></script>
 <script>
     let navIcon = document.getElementById("nav-icon");
-let Nav = document.getElementById("resnavbar")
-navIcon.addEventListener("click", function() {
+    let Nav = document.getElementById("resnavbar")
+    navIcon.addEventListener("click", function () {
 
-  Nav.style.display = "block";
-})
-document.getElementById("closenav").addEventListener("click", function(){
-Nav.style.display = "none";
-})
+        Nav.style.display = "block";
+    })
+    document.getElementById("closenav").addEventListener("click", function () {
+        Nav.style.display = "none";
+    })
 </script>
 </html>

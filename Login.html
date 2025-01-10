@@ -14,20 +14,20 @@
 </head>
 
 <body>
- <!-- ----------------------------- HEADER -------------------------- -->
- <header id="header" class="header"></header>
+    <!-- ----------------------------- HEADER -------------------------- -->
+    <header id="header" class="header"></header>
 
- <!------------------------------- SEARCH, CART, PROFILE ---------------------------->
- <div id="search" class="search__logo__help-support"></div>
+    <!------------------------------- SEARCH, CART, PROFILE ---------------------------->
+    <div id="search" class="search__logo__help-support"></div>
 
- <!------------------------------- NAVIGATION ---------------------------->
- <nav class="nav" id="nav"></nav>
+    <!------------------------------- NAVIGATION ---------------------------->
+    <nav class="nav" id="nav"></nav>
 
- <!-- respon nav -->
- <div id="resNav"></div>
- <div class="resnavbar" style="display: none;" id="resnavbar"></div>
+    <!-- respon nav -->
+    <div id="resNav"></div>
+    <div class="resnavbar" style="display: none;" id="resnavbar"></div>
 
- <!------------------------------- MAIN ---------------------------->
+    <!------------------------------- MAIN ---------------------------->
 
     <main>
         <!-- LOGIN FORM -->
@@ -38,8 +38,9 @@
             <label for="password">Password:</label>
             <input type="password" id="password" placeholder="Enter Password Here">
             <input type="submit" id="submit" value="Login">
-            <p>Don't Have an account? <a href="Sign up.html" style="color: rgb(206, 143, 47); font-weight: bold;">Sign Up</a></p>   
-         </form>
+            <p>Don't Have an account? <a href="Sign up.html" style="color: rgb(206, 143, 47); font-weight: bold;">Sign
+                    Up</a></p>
+        </form>
     </main>
     <!------------------------------- FOOTER ---------------------------->
     <footer id="footer" class="footer"> </footer>
@@ -50,13 +51,13 @@
 <script src="./scripts/profile.js"></script>
 <script>
     let navIcon = document.getElementById("nav-icon");
-let Nav = document.getElementById("resnavbar")
-navIcon.addEventListener("click", function() {
+    let Nav = document.getElementById("resnavbar")
+    navIcon.addEventListener("click", function () {
 
-  Nav.style.display = "block";
-})
-document.getElementById("closenav").addEventListener("click", function(){
-Nav.style.display = "none";
-})
+        Nav.style.display = "block";
+    })
+    document.getElementById("closenav").addEventListener("click", function () {
+        Nav.style.display = "none";
+    })
 </script>
 </html>

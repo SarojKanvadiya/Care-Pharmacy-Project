@@ -52,45 +52,45 @@
       </section>
 
       <aside id="cartAside">
-          <div class="apply-coupon">
-            <form action="" class="form">
-              <select name="" id="coupon">
-                <option value="">Apply Coupon</option>
-                <option value="10%">10% off</option>
-                <option value="20%">20% off</option>
-                <option value="30%">30% off</option>
-              </select>
-              <input type="submit" id="submit" value="Apply">
-            </form>
-          </div>
-         
-          <div id="cart-amount">
-            <h4 style="text-transform: uppercase; padding: 10px;">Price Details</h4>
-            <hr>
-            <div id="col">
-              <div id="row-1" class="row">
-                <p>Total MRP</p>
-                <p>&#8377 1399</p>
-              </div>
-              <div id="row-2" class="row">
-                <p>Discount on MRP</p>
-                <p>- &#8377 868</p>
-              </div>
-              <div id="row-3" class="row">
-                <p>Shipping Fee</p>
-                <p>&#8377 FREE</p>
-              </div>
+        <div class="apply-coupon">
+          <form action="" class="form">
+            <select name="" id="coupon">
+              <option value="">Apply Coupon</option>
+              <option value="10%">10% off</option>
+              <option value="20%">20% off</option>
+              <option value="30%">30% off</option>
+            </select>
+            <input type="submit" id="submit" value="Apply">
+          </form>
+        </div>
+
+        <div id="cart-amount">
+          <h4 style="text-transform: uppercase; padding: 10px;">Price Details</h4>
+          <hr>
+          <div id="col">
+            <div id="row-1" class="row">
+              <p>Total MRP</p>
+              <p>&#8377 1399</p>
             </div>
-            <hr>
-            <div id="total-amt-section" class="row">
-              <span>Total Amount</span>
-              <p>&#8377 <span></span></p>
+            <div id="row-2" class="row">
+              <p>Discount on MRP</p>
+              <p>- &#8377 868</p>
+            </div>
+            <div id="row-3" class="row">
+              <p>Shipping Fee</p>
+              <p>&#8377 FREE</p>
             </div>
           </div>
-         
-          <div class="placeOrderBtn">
-            <button id="placeOrderBtn">Place Order</button>
+          <hr>
+          <div id="total-amt-section" class="row">
+            <span>Total Amount</span>
+            <p>&#8377 <span></span></p>
           </div>
+        </div>
+
+        <div class="placeOrderBtn">
+          <button id="placeOrderBtn">Place Order</button>
+        </div>
       </aside>
 
     </div>
@@ -106,13 +106,13 @@
 <script src="./scripts/cart.js"></script>
 <script>
   let navIcon = document.getElementById("nav-icon");
-let Nav = document.getElementById("resnavbar")
-navIcon.addEventListener("click", function() {
+  let Nav = document.getElementById("resnavbar")
+  navIcon.addEventListener("click", function () {
 
-Nav.style.display = "block";
-})
-document.getElementById("closenav").addEventListener("click", function(){
-Nav.style.display = "none";
-})
+    Nav.style.display = "block";
+  })
+  document.getElementById("closenav").addEventListener("click", function () {
+    Nav.style.display = "none";
+  })
 </script>
 </html>
