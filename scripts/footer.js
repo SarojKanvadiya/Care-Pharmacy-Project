@@ -105,4 +105,9 @@ const footer =`<div class="newsletter">
         </div>`;
 
  const footerCont = document.getElementById("footer");
- footerCont.innerHTML = footer;       
+ footerCont.innerHTML = footer;   
+ 
+ document.getElementById("newsletter").addEventListener("submit", function(){
+    event.preventDefault();
+    alert("Thank You for Subscribing....");
+ })

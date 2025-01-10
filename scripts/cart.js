@@ -1,11 +1,11 @@
 function cartdisplayProducts(arr, containerId) {
     const container = document.getElementById(containerId);
     container.innerHTML = ""; 
-
+    
     arr.map((el) => {
         const card = document.createElement("div");
         card.className = "offer-card";
-
+       
         card.innerHTML = `<div class="image">
                 <img src=${el.image} alt="${el.title}">
               </div>
@@ -35,8 +35,8 @@ function cartdisplayProducts(arr, containerId) {
         `;
 
         container.appendChild(card);
-
-
+      
+     
         card.querySelector('#remove').addEventListener("click",function(){
             alert("Remove From Cart");
             removeToLocalStorage("cart", el);
