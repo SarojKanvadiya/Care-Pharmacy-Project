@@ -51,7 +51,7 @@ navCont.innerHTML = navbar;
 // sarojkanvadiya@gmail.com
 
 
-let resNav = `<a id="logo" href="index.html">Logo</a>
+let resNav = `<a id="logo" href="index.html">Care Pharmacy</a>
         <form class="search-bar">
             <input type="search" class="search" placeholder="Search Medicine By Name here">
             <i class="fa-solid fa-magnifying-glass"></i>
